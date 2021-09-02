@@ -23,7 +23,7 @@ namespace ProblemTwo_CompilationError
             lstDirectReports.Add(empFour);
             lstDirectReports.Add(empFive);
             Manager manEmp = new Manager(1001, "Fred", 10, DateTime.ParseExact("01-12-2001", "dd-MM-yyyy", CultureInfo.InvariantCulture), lstDirectReports, "SPS001");
-
+            Console.WriteLine("Press Any Key To Continue..");
             var lst=manEmp.GetMyReports();
             foreach (var item in lst)
             {
